@@ -1,7 +1,7 @@
 {
-	"name": "my-rollup-project",
+	"name": "rollup-components",
 	"version": "1.0.0",
-	"description": "Relying party of the Authorization Network",
+	"description": "React components specific to Webshield.io Apps",
 	"main": "index.js",
 	"proxy": "http://localhost:5000",
 	"scripts": {
