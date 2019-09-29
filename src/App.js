@@ -1,6 +1,5 @@
 import React from 'react';
 import _d from 'datedash';
-import { Exemplar } from 'authnet-app';
 import './App.scss';
 
 const _yarnTest = _d.yarnTest();
@@ -14,8 +13,6 @@ function App() {
     <section className="App">
       <div className={'App-header'}>
         <h1>Hello Flavio the date is: {dateToday}</h1>
-				<Exemplar._BallsHook title={'Exemplar._BallsHook'} />
-				<Exemplar._ExportHook title={'Exemplar._ExportHook'} />
       </div>
     </section>
   );
