@@ -5,11 +5,14 @@
 	"main": "index.js",
 	"proxy": "http://localhost:5000",
   "scripts": {
+		"build": "react-scripts build",
     "test": "test",
-    "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
+    "rollup": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
   },
   "dependencies": {
-    "datedash": "^1.0.53",
+		"authnet-app": "https://github.com/webshield-dev/authnet-app.git#master",
+		"crypto": "^1.0.1",
+		"datedash": "https://github.com/flavioespinoza/datedash.git#master",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-scripts": "^3.1.2",
