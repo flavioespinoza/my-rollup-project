@@ -6,7 +6,8 @@ const _yarnTest = _d.yarnTest();
 console.log(_yarnTest);
 
 function App() {
-  const dateToday = _d.date();
+  const today = new Date();
+  const dateToday = _d.date(today, 'MMM DD YYYY');
   const yarnTest2 = _d.yarnTest2();
   console.log('yarnTest2', yarnTest2);
   return (
