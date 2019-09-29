@@ -1,26 +1,52 @@
 {
   "name": "my-rollup-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+	"description": "Relying party of the Authorization Network",
+	"main": "index.js",
+	"proxy": "http://localhost:5000",
   "scripts": {
     "test": "test",
     "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/flavioespinoza/my-rollup-project.git"
-  },
-  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/flavioespinoza/my-rollup-project/issues"
-  },
-  "homepage": "https://github.com/flavioespinoza/my-rollup-project#readme",
   "dependencies": {
+    "datedash": "^1.0.53",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-scripts": "^3.1.2",
     "rollup-plugin-json": "^4.0.0"
-  }
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"quokka": {
+		"babel": {
+			"presets": [
+				"react-app"
+			]
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/webshield-dev/demo.git"
+	},
+	"author": "Webshield.io",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/webshield-dev/demo/issues"
+	},
+	"homepage": "https://github.com/webshield-dev/demo#readme"
+
+
 }
