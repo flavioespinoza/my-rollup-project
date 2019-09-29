@@ -1,5 +1,6 @@
 import React from 'react';
 import _d from 'datedash';
+import { Exemplar } from 'authnet-app';
 import './App.scss';
 
 const _yarnTest = _d.yarnTest();
