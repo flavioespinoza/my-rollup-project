@@ -1,0 +1,26 @@
+{
+  "name": "my-rollup-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/my-rollup-project.git"
+  },
+  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/my-rollup-project/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/my-rollup-project#readme",
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "^3.1.2",
+    "rollup-plugin-json": "^4.0.0"
+  }
+}
